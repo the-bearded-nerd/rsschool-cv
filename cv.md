@@ -4,51 +4,51 @@
 
 ## Contacts
 
-===
 *Location: Moscow, Russia
 *Phone: +79104565763
 *Email: DmitryKarvonen@gmail.com
 *GitHub: [the-bearded-nerd][githublink]
-
 [githubLink][https://github.com/the-bearded-nerd]
 
 ## About Me
 
-===
-some text....
-===
+I'm an experienced process automation engineer who willing to change profession to front-end developer.
 
-# ##Skills
+## Skills
 
-===
-*Skill 1
-*Skill 2
-\*Skill 3
-===
+- HTML5, CSS3
+- Basic JavaScript
+- GitHub
+- VS Code
+- Stong communication skills
 
 ## Code Example
 
-===
+**Multiples of 3 or 5 Kata from Codewars:**
+\*If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).
+
+Note: If the number is a multiple of both 3 and 5, only count it once.\*
 
 ```
-some code here...
-and some more here...
+function solution(number){
+  let sum = 0;
+  for (let i = 3; i < number; i++) {
+    if ((i % 3 === 0) || (i % 5 === 0)) sum +=i;
+  }
+  return sum;
+}
 ```
-
-===
 
 ## Experience
 
-===
-I am just noob....
-===
+_No relevant experience yet..._
 
 ## Education
 
-===
-MSTU
-===
+Bauman Moscow State University
 
 ## English
 
-===
+A2
